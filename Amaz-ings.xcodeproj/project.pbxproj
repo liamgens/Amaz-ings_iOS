@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086C61FC8A54900E07B44 /* AppDelegate.swift */; };
+		B74086C91FC8A54900E07B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086C81FC8A54900E07B44 /* ViewController.swift */; };
+		B74086CC1FC8A54900E07B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74086CA1FC8A54900E07B44 /* Main.storyboard */; };
+		B74086CE1FC8A54900E07B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74086CD1FC8A54900E07B44 /* Assets.xcassets */; };
+		B74086D11FC8A54900E07B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74086CF1FC8A54900E07B44 /* LaunchScreen.storyboard */; };
+		B74086DC1FC8A54A00E07B44 /* Amaz_ingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086DB1FC8A54A00E07B44 /* Amaz_ingsTests.swift */; };
+		B74086E71FC8A54A00E07B44 /* Amaz_ingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B74086D81FC8A54A00E07B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B74086BB1FC8A54900E07B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B74086C21FC8A54900E07B44;
+			remoteInfo = "Amaz-ings";
+		};
+		B74086E31FC8A54A00E07B44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B74086BB1FC8A54900E07B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B74086C21FC8A54900E07B44;
+			remoteInfo = "Amaz-ings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B74086C31FC8A54900E07B44 /* Amaz-ings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amaz-ings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74086C61FC8A54900E07B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B74086C81FC8A54900E07B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B74086CB1FC8A54900E07B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B74086CD1FC8A54900E07B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B74086D01FC8A54900E07B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B74086D21FC8A54900E07B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74086D71FC8A54A00E07B44 /* Amaz-ingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaz-ingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74086DB1FC8A54A00E07B44 /* Amaz_ingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaz_ingsTests.swift; sourceTree = "<group>"; };
+		B74086DD1FC8A54A00E07B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74086E21FC8A54A00E07B44 /* Amaz-ingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaz-ingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaz_ingsUITests.swift; sourceTree = "<group>"; };
+		B74086E81FC8A54A00E07B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74086C01FC8A54900E07B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74086D41FC8A54A00E07B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74086DF1FC8A54A00E07B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74086BA1FC8A54900E07B44 = {
+			isa = PBXGroup;
+			children = (
+				B74086C51FC8A54900E07B44 /* Amaz-ings */,
+				B74086DA1FC8A54A00E07B44 /* Amaz-ingsTests */,
+				B74086E51FC8A54A00E07B44 /* Amaz-ingsUITests */,
+				B74086C41FC8A54900E07B44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B74086C41FC8A54900E07B44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74086C31FC8A54900E07B44 /* Amaz-ings.app */,
+				B74086D71FC8A54A00E07B44 /* Amaz-ingsTests.xctest */,
+				B74086E21FC8A54A00E07B44 /* Amaz-ingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74086C51FC8A54900E07B44 /* Amaz-ings */ = {
+			isa = PBXGroup;
+			children = (
+				B74086C61FC8A54900E07B44 /* AppDelegate.swift */,
+				B74086C81FC8A54900E07B44 /* ViewController.swift */,
+				B74086CA1FC8A54900E07B44 /* Main.storyboard */,
+				B74086CD1FC8A54900E07B44 /* Assets.xcassets */,
+				B74086CF1FC8A54900E07B44 /* LaunchScreen.storyboard */,
+				B74086D21FC8A54900E07B44 /* Info.plist */,
+			);
+			path = "Amaz-ings";
+			sourceTree = "<group>";
+		};
+		B74086DA1FC8A54A00E07B44 /* Amaz-ingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B74086DB1FC8A54A00E07B44 /* Amaz_ingsTests.swift */,
+				B74086DD1FC8A54A00E07B44 /* Info.plist */,
+			);
+			path = "Amaz-ingsTests";
+			sourceTree = "<group>";
+		};
+		B74086E51FC8A54A00E07B44 /* Amaz-ingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */,
+				B74086E81FC8A54A00E07B44 /* Info.plist */,
+			);
+			path = "Amaz-ingsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74086C21FC8A54900E07B44 /* Amaz-ings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74086EB1FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ings" */;
+			buildPhases = (
+				B74086BF1FC8A54900E07B44 /* Sources */,
+				B74086C01FC8A54900E07B44 /* Frameworks */,
+				B74086C11FC8A54900E07B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amaz-ings";
+			productName = "Amaz-ings";
+			productReference = B74086C31FC8A54900E07B44 /* Amaz-ings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B74086D61FC8A54A00E07B44 /* Amaz-ingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74086EE1FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ingsTests" */;
+			buildPhases = (
+				B74086D31FC8A54A00E07B44 /* Sources */,
+				B74086D41FC8A54A00E07B44 /* Frameworks */,
+				B74086D51FC8A54A00E07B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B74086D91FC8A54A00E07B44 /* PBXTargetDependency */,
+			);
+			name = "Amaz-ingsTests";
+			productName = "Amaz-ingsTests";
+			productReference = B74086D71FC8A54A00E07B44 /* Amaz-ingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B74086E11FC8A54A00E07B44 /* Amaz-ingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74086F11FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ingsUITests" */;
+			buildPhases = (
+				B74086DE1FC8A54A00E07B44 /* Sources */,
+				B74086DF1FC8A54A00E07B44 /* Frameworks */,
+				B74086E01FC8A54A00E07B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B74086E41FC8A54A00E07B44 /* PBXTargetDependency */,
+			);
+			name = "Amaz-ingsUITests";
+			productName = "Amaz-ingsUITests";
+			productReference = B74086E21FC8A54A00E07B44 /* Amaz-ingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B74086BB1FC8A54900E07B44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Liam Gensel";
+				TargetAttributes = {
+					B74086C21FC8A54900E07B44 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B74086D61FC8A54A00E07B44 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B74086C21FC8A54900E07B44;
+					};
+					B74086E11FC8A54A00E07B44 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B74086C21FC8A54900E07B44;
+					};
+				};
+			};
+			buildConfigurationList = B74086BE1FC8A54900E07B44 /* Build configuration list for PBXProject "Amaz-ings" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B74086BA1FC8A54900E07B44;
+			productRefGroup = B74086C41FC8A54900E07B44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74086C21FC8A54900E07B44 /* Amaz-ings */,
+				B74086D61FC8A54A00E07B44 /* Amaz-ingsTests */,
+				B74086E11FC8A54A00E07B44 /* Amaz-ingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74086C11FC8A54900E07B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74086D11FC8A54900E07B44 /* LaunchScreen.storyboard in Resources */,
+				B74086CE1FC8A54900E07B44 /* Assets.xcassets in Resources */,
+				B74086CC1FC8A54900E07B44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74086D51FC8A54A00E07B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74086E01FC8A54A00E07B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74086BF1FC8A54900E07B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74086C91FC8A54900E07B44 /* ViewController.swift in Sources */,
+				B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74086D31FC8A54A00E07B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74086DC1FC8A54A00E07B44 /* Amaz_ingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74086DE1FC8A54A00E07B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74086E71FC8A54A00E07B44 /* Amaz_ingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B74086D91FC8A54A00E07B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B74086C21FC8A54900E07B44 /* Amaz-ings */;
+			targetProxy = B74086D81FC8A54A00E07B44 /* PBXContainerItemProxy */;
+		};
+		B74086E41FC8A54A00E07B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B74086C21FC8A54900E07B44 /* Amaz-ings */;
+			targetProxy = B74086E31FC8A54A00E07B44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B74086CA1FC8A54900E07B44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74086CB1FC8A54900E07B44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74086CF1FC8A54900E07B44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74086D01FC8A54900E07B44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B74086E91FC8A54A00E07B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B74086EA1FC8A54A00E07B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B74086EC1FC8A54A00E07B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amaz-ings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liamgens.Amaz-ings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B74086ED1FC8A54A00E07B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amaz-ings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liamgens.Amaz-ings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B74086EF1FC8A54A00E07B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amaz-ingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liamgens.Amaz-ingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaz-ings.app/Amaz-ings";
+			};
+			name = Debug;
+		};
+		B74086F01FC8A54A00E07B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amaz-ingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liamgens.Amaz-ingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amaz-ings.app/Amaz-ings";
+			};
+			name = Release;
+		};
+		B74086F21FC8A54A00E07B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amaz-ingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liamgens.Amaz-ingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amaz-ings";
+			};
+			name = Debug;
+		};
+		B74086F31FC8A54A00E07B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amaz-ingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liamgens.Amaz-ingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amaz-ings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B74086BE1FC8A54900E07B44 /* Build configuration list for PBXProject "Amaz-ings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74086E91FC8A54A00E07B44 /* Debug */,
+				B74086EA1FC8A54A00E07B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74086EB1FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74086EC1FC8A54A00E07B44 /* Debug */,
+				B74086ED1FC8A54A00E07B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74086EE1FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74086EF1FC8A54A00E07B44 /* Debug */,
+				B74086F01FC8A54A00E07B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74086F11FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74086F21FC8A54A00E07B44 /* Debug */,
+				B74086F31FC8A54A00E07B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B74086BB1FC8A54900E07B44 /* Project object */;
+}
