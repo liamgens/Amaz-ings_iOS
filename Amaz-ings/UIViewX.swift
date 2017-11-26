@@ -9,46 +9,59 @@
 import UIKit
 
 // Custom View Object that has some extra parameters
-class UIViewX: UIView {
+class UIViewX: UIView
+{
     
     @IBInspectable
-    var cornerRadius: CGFloat {
-        get {
+    var cornerRadius: CGFloat
+    {
+        get
+        {
             return layer.cornerRadius
         }
-        set {
+        set
+        {
             layer.cornerRadius = newValue
             layer.masksToBounds = newValue > 0
         }
     }
     
     @IBInspectable
-    var borderWidth: CGFloat {
-        get {
+    var borderWidth: CGFloat
+    {
+        get
+        {
             return layer.borderWidth
         }
-        set {
+        set
+        {
             layer.borderWidth = newValue
         }
     }
     
     @IBInspectable
-    var borderColor: UIColor? {
-        get {
+    var borderColor: UIColor?
+    {
+        get
+        {
             let color = UIColor(cgColor: layer.borderColor!)
             return color
         }
-        set {
+        set
+        {
             layer.borderColor = newValue?.cgColor
         }
     }
     
     @IBInspectable
-    var shadowRadius: CGFloat {
-        get {
+    var shadowRadius: CGFloat
+    {
+        get
+        {
             return layer.shadowRadius
         }
-        set {
+        set
+        {
             layer.shadowColor = UIColor.black.cgColor
             layer.shadowOffset = CGSize(width: 0, height: 2)
             layer.shadowOpacity = 0.4
