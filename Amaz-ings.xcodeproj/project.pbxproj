@@ -17,7 +17,8 @@
 		B74086DC1FC8A54A00E07B44 /* Amaz_ingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086DB1FC8A54A00E07B44 /* Amaz_ingsTests.swift */; };
 		B74086E71FC8A54A00E07B44 /* Amaz_ingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */; };
 		B74086FB1FC8B6A300E07B44 /* NewItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086FA1FC8B6A300E07B44 /* NewItemsViewController.swift */; };
-		B7862D7A1FCAD1DF00FFCC3E /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7862D791FCAD1DF00FFCC3E /* OverlayView.xib */; };
+		B756823A1FCAE04B00094B10 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75682391FCAE04B00094B10 /* CustomOverlayView.xib */; };
+		B7862D7C1FCADB4400FFCC3E /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7862D7B1FCADB4400FFCC3E /* CustomOverlayView.swift */; };
 		B79D5C791FCA4ACD00A7D6B6 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */; };
 		B7C81C511FCA85EC004DF937 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C81C501FCA85EC004DF937 /* Card.swift */; };
 		B7C81C531FCA8808004DF937 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C81C521FCA8808004DF937 /* Product.swift */; };
@@ -65,7 +66,8 @@
 		B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaz_ingsUITests.swift; sourceTree = "<group>"; };
 		B74086E81FC8A54A00E07B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74086FA1FC8B6A300E07B44 /* NewItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemsViewController.swift; sourceTree = "<group>"; };
-		B7862D791FCAD1DF00FFCC3E /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		B75682391FCAE04B00094B10 /* CustomOverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		B7862D7B1FCADB4400FFCC3E /* CustomOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
 		B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		B7C81C501FCA85EC004DF937 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B7C81C521FCA8808004DF937 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -160,7 +162,8 @@
 				B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */,
 				B7C81C501FCA85EC004DF937 /* Card.swift */,
 				B7C81C521FCA8808004DF937 /* Product.swift */,
-				B7862D791FCAD1DF00FFCC3E /* OverlayView.xib */,
+				B7862D7B1FCADB4400FFCC3E /* CustomOverlayView.swift */,
+				B75682391FCAE04B00094B10 /* CustomOverlayView.xib */,
 			);
 			path = "Amaz-ings";
 			sourceTree = "<group>";
@@ -301,7 +304,7 @@
 			files = (
 				B74086D11FC8A54900E07B44 /* LaunchScreen.storyboard in Resources */,
 				B7DB068B1FCA7FBD00C108A3 /* icon_item_tpbox_100.png in Resources */,
-				B7862D7A1FCAD1DF00FFCC3E /* OverlayView.xib in Resources */,
+				B756823A1FCAE04B00094B10 /* CustomOverlayView.xib in Resources */,
 				B74086CE1FC8A54900E07B44 /* Assets.xcassets in Resources */,
 				B74086CC1FC8A54900E07B44 /* Main.storyboard in Resources */,
 			);
@@ -484,6 +487,7 @@
 			files = (
 				B74086C91FC8A54900E07B44 /* ViewController.swift in Sources */,
 				B79D5C791FCA4ACD00A7D6B6 /* UIViewX.swift in Sources */,
+				B7862D7C1FCADB4400FFCC3E /* CustomOverlayView.swift in Sources */,
 				B7C81C511FCA85EC004DF937 /* Card.swift in Sources */,
 				B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */,
 				B74086FB1FC8B6A300E07B44 /* NewItemsViewController.swift in Sources */,

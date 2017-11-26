@@ -70,14 +70,11 @@ extension NewItemsViewController: KolodaViewDataSource {
     }
     
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
-        
-        let image = UIImageView(image: #imageLiteral(resourceName: "cards_1"))
-        image.center = self.kolodaView.center
-        return image
+        return UIImageView(image: #imageLiteral(resourceName: "cards_1"))
     }
     
     func koloda(_ koloda: KolodaView, viewForCardOverlayAt index: Int) -> OverlayView? {
-        return Bundle.main.loadNibNamed("OverlayView", owner: self, options: nil)![0] as? OverlayView
+        return Bundle.main.loadNibNamed("CustomOverlayView", owner: self, options: nil)![0] as? OverlayView
     }
 }
 
