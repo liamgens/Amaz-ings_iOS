@@ -14,6 +14,8 @@
 		B74086D11FC8A54900E07B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74086CF1FC8A54900E07B44 /* LaunchScreen.storyboard */; };
 		B74086DC1FC8A54A00E07B44 /* Amaz_ingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086DB1FC8A54A00E07B44 /* Amaz_ingsTests.swift */; };
 		B74086E71FC8A54A00E07B44 /* Amaz_ingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */; };
+		B74086FB1FC8B6A300E07B44 /* NewItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086FA1FC8B6A300E07B44 /* NewItemsViewController.swift */; };
+		B79D5C791FCA4ACD00A7D6B6 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B74086E21FC8A54A00E07B44 /* Amaz-ingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amaz-ingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaz_ingsUITests.swift; sourceTree = "<group>"; };
 		B74086E81FC8A54A00E07B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74086FA1FC8B6A300E07B44 /* NewItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemsViewController.swift; sourceTree = "<group>"; };
+		B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				B74086C61FC8A54900E07B44 /* AppDelegate.swift */,
 				B74086C81FC8A54900E07B44 /* ViewController.swift */,
 				B74086CA1FC8A54900E07B44 /* Main.storyboard */,
+				B74086FA1FC8B6A300E07B44 /* NewItemsViewController.swift */,
 				B74086CD1FC8A54900E07B44 /* Assets.xcassets */,
 				B74086CF1FC8A54900E07B44 /* LaunchScreen.storyboard */,
 				B74086D21FC8A54900E07B44 /* Info.plist */,
+				B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */,
 			);
 			path = "Amaz-ings";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B74086C91FC8A54900E07B44 /* ViewController.swift in Sources */,
+				B79D5C791FCA4ACD00A7D6B6 /* UIViewX.swift in Sources */,
 				B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */,
+				B74086FB1FC8B6A300E07B44 /* NewItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
