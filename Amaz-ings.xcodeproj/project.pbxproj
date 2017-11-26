@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65652A6E6EA8FD2F0B0FE885 /* Pods_Amaz_ings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5CD70FEFE0A6B0F7F05517 /* Pods_Amaz_ings.framework */; };
+		9EF63665D7140F5CDB01EB6E /* Pods_Amaz_ingsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F47D73533F35C98656BEDC /* Pods_Amaz_ingsUITests.framework */; };
 		B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086C61FC8A54900E07B44 /* AppDelegate.swift */; };
 		B74086C91FC8A54900E07B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086C81FC8A54900E07B44 /* ViewController.swift */; };
 		B74086CC1FC8A54900E07B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74086CA1FC8A54900E07B44 /* Main.storyboard */; };
@@ -15,7 +17,12 @@
 		B74086DC1FC8A54A00E07B44 /* Amaz_ingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086DB1FC8A54A00E07B44 /* Amaz_ingsTests.swift */; };
 		B74086E71FC8A54A00E07B44 /* Amaz_ingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */; };
 		B74086FB1FC8B6A300E07B44 /* NewItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086FA1FC8B6A300E07B44 /* NewItemsViewController.swift */; };
+		B7862D7A1FCAD1DF00FFCC3E /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7862D791FCAD1DF00FFCC3E /* OverlayView.xib */; };
 		B79D5C791FCA4ACD00A7D6B6 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */; };
+		B7C81C511FCA85EC004DF937 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C81C501FCA85EC004DF937 /* Card.swift */; };
+		B7C81C531FCA8808004DF937 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C81C521FCA8808004DF937 /* Product.swift */; };
+		B7DB068B1FCA7FBD00C108A3 /* icon_item_tpbox_100.png in Resources */ = {isa = PBXBuildFile; fileRef = B7DB068A1FCA7FBD00C108A3 /* icon_item_tpbox_100.png */; };
+		E466116E043C27E6FE013A09 /* Pods_Amaz_ingsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A13F01AE67CC6976E0DF42 /* Pods_Amaz_ingsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F95420561020422F87A63C /* Pods-Amaz-ings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ings/Pods-Amaz-ings.debug.xcconfig"; sourceTree = "<group>"; };
+		062A940281F2136BA14AC035 /* Pods-Amaz-ingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ingsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ingsTests/Pods-Amaz-ingsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06F47D73533F35C98656BEDC /* Pods_Amaz_ingsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaz_ingsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A13F01AE67CC6976E0DF42 /* Pods_Amaz_ingsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaz_ingsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4390571FE05150C56CD1D5D0 /* Pods-Amaz-ingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ingsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ingsTests/Pods-Amaz-ingsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C5CD70FEFE0A6B0F7F05517 /* Pods_Amaz_ings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaz_ings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2D9FE631DA724EDAC4C46D /* Pods-Amaz-ingsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ingsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ingsUITests/Pods-Amaz-ingsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71654FE50A955B8C60B9778F /* Pods-Amaz-ingsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ingsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ingsUITests/Pods-Amaz-ingsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B74086C31FC8A54900E07B44 /* Amaz-ings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amaz-ings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74086C61FC8A54900E07B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B74086C81FC8A54900E07B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +65,12 @@
 		B74086E61FC8A54A00E07B44 /* Amaz_ingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amaz_ingsUITests.swift; sourceTree = "<group>"; };
 		B74086E81FC8A54A00E07B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B74086FA1FC8B6A300E07B44 /* NewItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemsViewController.swift; sourceTree = "<group>"; };
+		B7862D791FCAD1DF00FFCC3E /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		B7C81C501FCA85EC004DF937 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B7C81C521FCA8808004DF937 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B7DB068A1FCA7FBD00C108A3 /* icon_item_tpbox_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_item_tpbox_100.png; path = ../../../Desktop/icon_item_tpbox_100.png; sourceTree = "<group>"; };
+		ED19F2C03AD2E6D608A02759 /* Pods-Amaz-ings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ings.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ings/Pods-Amaz-ings.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65652A6E6EA8FD2F0B0FE885 /* Pods_Amaz_ings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E466116E043C27E6FE013A09 /* Pods_Amaz_ingsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF63665D7140F5CDB01EB6E /* Pods_Amaz_ingsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EDBB42B38E7B43AF5AD4C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C5CD70FEFE0A6B0F7F05517 /* Pods_Amaz_ings.framework */,
+				13A13F01AE67CC6976E0DF42 /* Pods_Amaz_ingsTests.framework */,
+				06F47D73533F35C98656BEDC /* Pods_Amaz_ingsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87ACB5F1A6F2E6B77B322418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02F95420561020422F87A63C /* Pods-Amaz-ings.debug.xcconfig */,
+				ED19F2C03AD2E6D608A02759 /* Pods-Amaz-ings.release.xcconfig */,
+				062A940281F2136BA14AC035 /* Pods-Amaz-ingsTests.debug.xcconfig */,
+				4390571FE05150C56CD1D5D0 /* Pods-Amaz-ingsTests.release.xcconfig */,
+				71654FE50A955B8C60B9778F /* Pods-Amaz-ingsUITests.debug.xcconfig */,
+				6D2D9FE631DA724EDAC4C46D /* Pods-Amaz-ingsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B74086BA1FC8A54900E07B44 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				B74086DA1FC8A54A00E07B44 /* Amaz-ingsTests */,
 				B74086E51FC8A54A00E07B44 /* Amaz-ingsUITests */,
 				B74086C41FC8A54900E07B44 /* Products */,
+				87ACB5F1A6F2E6B77B322418 /* Pods */,
+				7EDBB42B38E7B43AF5AD4C39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +149,7 @@
 		B74086C51FC8A54900E07B44 /* Amaz-ings */ = {
 			isa = PBXGroup;
 			children = (
+				B7DB068A1FCA7FBD00C108A3 /* icon_item_tpbox_100.png */,
 				B74086C61FC8A54900E07B44 /* AppDelegate.swift */,
 				B74086C81FC8A54900E07B44 /* ViewController.swift */,
 				B74086CA1FC8A54900E07B44 /* Main.storyboard */,
@@ -109,6 +158,9 @@
 				B74086CF1FC8A54900E07B44 /* LaunchScreen.storyboard */,
 				B74086D21FC8A54900E07B44 /* Info.plist */,
 				B79D5C781FCA4ACD00A7D6B6 /* UIViewX.swift */,
+				B7C81C501FCA85EC004DF937 /* Card.swift */,
+				B7C81C521FCA8808004DF937 /* Product.swift */,
+				B7862D791FCAD1DF00FFCC3E /* OverlayView.xib */,
 			);
 			path = "Amaz-ings";
 			sourceTree = "<group>";
@@ -138,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B74086EB1FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ings" */;
 			buildPhases = (
+				ADDA996DE79A6A17A1B305A6 /* [CP] Check Pods Manifest.lock */,
 				B74086BF1FC8A54900E07B44 /* Sources */,
 				B74086C01FC8A54900E07B44 /* Frameworks */,
 				B74086C11FC8A54900E07B44 /* Resources */,
+				2EF147E0DE4CEAB7BFEEDCA9 /* [CP] Embed Pods Frameworks */,
+				312EB775DC5EA37B223C46E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B74086EE1FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ingsTests" */;
 			buildPhases = (
+				3311E0211ACE2D9BBD74CC6D /* [CP] Check Pods Manifest.lock */,
 				B74086D31FC8A54A00E07B44 /* Sources */,
 				B74086D41FC8A54A00E07B44 /* Frameworks */,
 				B74086D51FC8A54A00E07B44 /* Resources */,
+				AA9858B64BC2D1C6A3DD2C64 /* [CP] Embed Pods Frameworks */,
+				9308CF3DF85BA4C90B5B5C81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B74086F11FC8A54A00E07B44 /* Build configuration list for PBXNativeTarget "Amaz-ingsUITests" */;
 			buildPhases = (
+				320E050E07FD82C7FC0799C9 /* [CP] Check Pods Manifest.lock */,
 				B74086DE1FC8A54A00E07B44 /* Sources */,
 				B74086DF1FC8A54A00E07B44 /* Frameworks */,
 				B74086E01FC8A54A00E07B44 /* Resources */,
+				BC23B4C033C5CC61D73BD7F9 /* [CP] Embed Pods Frameworks */,
+				7753D712B64ECEB4CF16819D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B74086D11FC8A54900E07B44 /* LaunchScreen.storyboard in Resources */,
+				B7DB068B1FCA7FBD00C108A3 /* icon_item_tpbox_100.png in Resources */,
+				B7862D7A1FCAD1DF00FFCC3E /* OverlayView.xib in Resources */,
 				B74086CE1FC8A54900E07B44 /* Assets.xcassets in Resources */,
 				B74086CC1FC8A54900E07B44 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +323,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EF147E0DE4CEAB7BFEEDCA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Amaz-ings/Pods-Amaz-ings-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaz-ings/Pods-Amaz-ings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		312EB775DC5EA37B223C46E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaz-ings/Pods-Amaz-ings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320E050E07FD82C7FC0799C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amaz-ingsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3311E0211ACE2D9BBD74CC6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amaz-ingsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7753D712B64ECEB4CF16819D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaz-ingsUITests/Pods-Amaz-ingsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9308CF3DF85BA4C90B5B5C81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaz-ingsTests/Pods-Amaz-ingsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9858B64BC2D1C6A3DD2C64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaz-ingsTests/Pods-Amaz-ingsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADDA996DE79A6A17A1B305A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amaz-ings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC23B4C033C5CC61D73BD7F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaz-ingsUITests/Pods-Amaz-ingsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B74086BF1FC8A54900E07B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,8 +484,10 @@
 			files = (
 				B74086C91FC8A54900E07B44 /* ViewController.swift in Sources */,
 				B79D5C791FCA4ACD00A7D6B6 /* UIViewX.swift in Sources */,
+				B7C81C511FCA85EC004DF937 /* Card.swift in Sources */,
 				B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */,
 				B74086FB1FC8B6A300E07B44 /* NewItemsViewController.swift in Sources */,
+				B7C81C531FCA8808004DF937 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +651,7 @@
 		};
 		B74086EC1FC8A54A00E07B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F95420561020422F87A63C /* Pods-Amaz-ings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +666,7 @@
 		};
 		B74086ED1FC8A54A00E07B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED19F2C03AD2E6D608A02759 /* Pods-Amaz-ings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +681,7 @@
 		};
 		B74086EF1FC8A54A00E07B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062A940281F2136BA14AC035 /* Pods-Amaz-ingsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -476,6 +698,7 @@
 		};
 		B74086F01FC8A54A00E07B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4390571FE05150C56CD1D5D0 /* Pods-Amaz-ingsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +715,7 @@
 		};
 		B74086F21FC8A54A00E07B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71654FE50A955B8C60B9778F /* Pods-Amaz-ingsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +731,7 @@
 		};
 		B74086F31FC8A54A00E07B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2D9FE631DA724EDAC4C46D /* Pods-Amaz-ingsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

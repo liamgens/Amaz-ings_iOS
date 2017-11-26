@@ -1,0 +1,6 @@
+framework module Pods_Amaz_ingsTests {
+  umbrella header "Pods-Amaz-ingsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

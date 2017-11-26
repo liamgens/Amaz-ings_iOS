@@ -1,0 +1,6 @@
+framework module Pods_Amaz_ings {
+  umbrella header "Pods-Amaz-ings-umbrella.h"
+
+  export *
+  module * { export * }
+}
