@@ -72,8 +72,7 @@ extension NewItemsViewController: KolodaViewDataSource {
     
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
         let views: CardView = (Bundle.main.loadNibNamed("CardView", owner: self, options: nil)![0] as! CardView)
-        
-        views.label.text = "tester"
+        views.label.text = products[index].title
         
         return views
         
