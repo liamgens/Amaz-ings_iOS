@@ -11,13 +11,14 @@ import Koloda
 
 class CustomOverlayView: OverlayView
 {
-    @IBOutlet lazy var overlayImageViews: UIImageView! = {
-        [unowned self] in
-        
-        var imageView = UIImageView(frame: self.bounds)
-        self.addSubview(imageView)
-        
-        return imageView
-        }()
-    }
+//    @IBOutlet lazy var overlayImageViews: UIImageView! = {
+//        [unowned self] in
+//        
+//        var imageView = UIImageView(frame: self.bounds)
+//        self.addSubview(imageView)
+//        
+//        return imageView
+//        }()
 
+
+}

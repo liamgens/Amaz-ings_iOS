@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		65652A6E6EA8FD2F0B0FE885 /* Pods_Amaz_ings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5CD70FEFE0A6B0F7F05517 /* Pods_Amaz_ings.framework */; };
 		9EF63665D7140F5CDB01EB6E /* Pods_Amaz_ingsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F47D73533F35C98656BEDC /* Pods_Amaz_ingsUITests.framework */; };
+		B715EC7E1FCBA57E00328968 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B715EC7D1FCBA57E00328968 /* CardView.xib */; };
+		B715EC801FCBA5F400328968 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715EC7F1FCBA5F400328968 /* CardView.swift */; };
 		B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086C61FC8A54900E07B44 /* AppDelegate.swift */; };
 		B74086C91FC8A54900E07B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74086C81FC8A54900E07B44 /* ViewController.swift */; };
 		B74086CC1FC8A54900E07B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74086CA1FC8A54900E07B44 /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 		6C5CD70FEFE0A6B0F7F05517 /* Pods_Amaz_ings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaz_ings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2D9FE631DA724EDAC4C46D /* Pods-Amaz-ingsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ingsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ingsUITests/Pods-Amaz-ingsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		71654FE50A955B8C60B9778F /* Pods-Amaz-ingsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaz-ingsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amaz-ingsUITests/Pods-Amaz-ingsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B715EC7D1FCBA57E00328968 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		B715EC7F1FCBA5F400328968 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B74086C31FC8A54900E07B44 /* Amaz-ings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amaz-ings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74086C61FC8A54900E07B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B74086C81FC8A54900E07B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				B7C81C521FCA8808004DF937 /* Product.swift */,
 				B7862D7B1FCADB4400FFCC3E /* CustomOverlayView.swift */,
 				B75682391FCAE04B00094B10 /* CustomOverlayView.xib */,
+				B715EC7D1FCBA57E00328968 /* CardView.xib */,
+				B715EC7F1FCBA5F400328968 /* CardView.swift */,
 			);
 			path = "Amaz-ings";
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			files = (
 				B74086D11FC8A54900E07B44 /* LaunchScreen.storyboard in Resources */,
 				B7DB068B1FCA7FBD00C108A3 /* icon_item_tpbox_100.png in Resources */,
+				B715EC7E1FCBA57E00328968 /* CardView.xib in Resources */,
 				B756823A1FCAE04B00094B10 /* CustomOverlayView.xib in Resources */,
 				B74086CE1FC8A54900E07B44 /* Assets.xcassets in Resources */,
 				B74086CC1FC8A54900E07B44 /* Main.storyboard in Resources */,
@@ -491,6 +498,7 @@
 				B7C81C511FCA85EC004DF937 /* Card.swift in Sources */,
 				B74086C71FC8A54900E07B44 /* AppDelegate.swift in Sources */,
 				B74086FB1FC8B6A300E07B44 /* NewItemsViewController.swift in Sources */,
+				B715EC801FCBA5F400328968 /* CardView.swift in Sources */,
 				B7C81C531FCA8808004DF937 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

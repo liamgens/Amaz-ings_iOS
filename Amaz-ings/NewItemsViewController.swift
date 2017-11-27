@@ -34,6 +34,7 @@ class NewItemsViewController: UIViewController {
                     self.products.append(product)
 //                    print(product.title!)
                 }
+                self.kolodaView.reloadData()
                 
             }
         }
@@ -62,7 +63,7 @@ extension NewItemsViewController: KolodaViewDelegate {
 extension NewItemsViewController: KolodaViewDataSource {
     
     func kolodaNumberOfCards(_ koloda:KolodaView) -> Int {
-        return 5
+        return products.count
     }
     
     func kolodaSpeedThatCardShouldDrag(_ koloda: KolodaView) -> DragSpeed {
@@ -70,11 +71,16 @@ extension NewItemsViewController: KolodaViewDataSource {
     }
     
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
-        return UIImageView(image: #imageLiteral(resourceName: "cards_1"))
+        let views: CardView = (Bundle.main.loadNibNamed("CardView", owner: self, options: nil)![0] as! CardView)
+        
+        views.label.text = "tester"
+        
+        return views
+        
     }
     
-    func koloda(_ koloda: KolodaView, viewForCardOverlayAt index: Int) -> OverlayView? {
-        return Bundle.main.loadNibNamed("CustomOverlayView", owner: self, options: nil)![0] as? OverlayView
-    }
+//    func koloda(_ koloda: KolodaView, viewForCardOverlayAt index: Int) -> OverlayView? {
+//        return Bundle.main.loadNibNamed("CardView", owner: self, options: nil)![0] as? OverlayView
+//    }
 }
 
